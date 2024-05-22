@@ -65,7 +65,6 @@ const QuestionArea = () => {
         setQuestion("");
         setImages([]);
         setImagePreviews([]);
-        window.location.reload(); // 바로 페이지 새로고침
       }
     } catch (error) {
       console.log(error);
